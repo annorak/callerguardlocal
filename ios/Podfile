@@ -12,6 +12,10 @@ target 'callerid' do
   pod 'TwilioVoice', '~> 2.1.0'
   pod 'RNTwilioVoice', :path => '../node_modules/react-native-twilio-programmable-voice'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'calleridTests' do
     inherit! :complete
     # Pods for testing
